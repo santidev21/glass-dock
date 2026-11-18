@@ -9,16 +9,15 @@
 ![Wayland](https://img.shields.io/badge/Wayland-ready-FFBC00?logo=wayland&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/GJS-ES_modules-F7DF1E?logo=javascript&logoColor=black)
 
-```
-╭──────────────────────────────────────────────────────────╮
-│  ⣿   🦊  📝  🖥️  🗂️  ✉️  │  ♻️                          │
-│        •   •   •   •                                     │
-╰──────────────────────────────────────────────────────────╯
-```
+<img src="screenshots/dock.png" alt="Glass Dock" width="640">
 
 </div>
 
 ---
+
+<p align="center">
+  <img src="screenshots/desktop.jpg" alt="Desktop with Glass Dock and Mac Topbar">
+</p>
 
 ## ✨ Features
 

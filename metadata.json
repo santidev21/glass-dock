@@ -1,0 +1,10 @@
+{
+    "uuid": "glass-dock@santidev21",
+    "name": "Glass Dock",
+    "description": "Dock estilo macOS: vidrio translúcido, magnificación, intellihide y contador de notificaciones.",
+    "shell-version": [
+        "51"
+    ],
+    "version": 1,
+    "settings-schema": "org.gnome.shell.extensions.glass-dock"
+}

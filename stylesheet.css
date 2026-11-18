@@ -1,0 +1,71 @@
+/* ---------- Vidrio ---------- */
+/* Oscuro (por defecto) */
+.glass-dock-tint {
+    background-color: rgba(24, 24, 28, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-top-color: rgba(255, 255, 255, 0.30);   /* reflejo superior */
+}
+/* Claro */
+.glass-dock.light .glass-dock-tint {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-color: rgba(255, 255, 255, 0.45);
+    border-top-color: rgba(255, 255, 255, 0.75);
+}
+
+.glass-dock-box {
+    padding: 8px 6px 2px 6px;
+}
+
+/* ---------- Ítems ---------- */
+.glass-dock-item {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.glass-dock-dot {
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.glass-dock.light .glass-dock-dot {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.glass-dock-badge {
+    min-width: 12px;
+    padding: 1px 5px;
+    border-radius: 99px;
+    background-color: #ff3b30;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.glass-dock-separator {
+    margin: 0 6px;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+.glass-dock.light .glass-dock-separator {
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+/* Botón "Aplicaciones" (izquierda): solo el ícono de 9 puntos */
+.glass-dock-apps-icon {
+    color: rgba(255, 255, 255, 0.92);
+    icon-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+.glass-dock.light .glass-dock-apps-icon {
+    color: rgba(0, 0, 0, 0.75);
+    icon-shadow: none;
+}
+
+/* Etiqueta flotante con el nombre */
+.glass-dock-label {
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: rgba(30, 30, 34, 0.85);
+    color: white;
+    font-size: 12px;
+}

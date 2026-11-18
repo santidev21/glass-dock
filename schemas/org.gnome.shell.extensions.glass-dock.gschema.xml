@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.glass-dock" path="/org/gnome/shell/extensions/glass-dock/">
+    <key name="icon-size" type="i">
+      <default>48</default>
+      <range min="24" max="128"/>
+      <summary>Tamaño de los íconos</summary>
+      <description>Tamaño de los íconos del dock en reposo, en píxeles.</description>
+    </key>
+    <key name="magnification" type="d">
+      <default>1.6</default>
+      <range min="1.0" max="2.5"/>
+      <summary>Magnificación</summary>
+      <description>Escala máxima del ícono bajo el puntero. 1.0 desactiva el zoom.</description>
+    </key>
+    <key name="live-blur" type="b">
+      <default>true</default>
+      <summary>Blur en vivo</summary>
+      <description>Desenfoca lo que hay detrás del dock (ventanas incluidas). Si se desactiva, solo desenfoca el fondo de pantalla.</description>
+    </key>
+  </schema>
+</schemalist>
